@@ -1,0 +1,23 @@
+body {
+  color: #CBB9AD;
+  background:  #2E3138;
+  font-family: Georgia, Times, Serif;
+}
+
+a:link.Names, a:visited.Names, a:hover.Names, a:active.Names {
+  text-decoration: none;
+  color: #CBB9AD;
+}
+
+a:link {
+  color:  #8AA4B5;
+}
+a:visited {
+  color:  #9AB7CA;
+}
+a:hover {
+  color:  #65728D;
+}
+a:active {
+  color:  #C6E6FB;
+}
