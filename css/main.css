@@ -4,6 +4,17 @@ body {
   font-family: Georgia, Times, Serif;
 }
 
+.Photos {
+  width: 63%;
+  height: auto;
+  border: 3px solid #000;
+}
+
+.title {
+  width: 25%;
+  height: auto;
+}
+
 a:link.Names, a:visited.Names, a:hover.Names, a:active.Names {
   text-decoration: none;
   color: #CBB9AD;
