@@ -4,8 +4,18 @@ body {
   font-family: Georgia, Times, Serif;
 }
 
+header, main {
+  max-width: 67%;
+  text-align: center;
+  margin: auto;
+}
+
+.menu {
+  max-width: 100%;
+}
+
 .Photos {
-  width: 63%;
+  width: 75%;
   height: auto;
   border: 3px solid #000;
 }
@@ -31,4 +41,14 @@ a:hover {
 }
 a:active {
   color:  #C6E6FB;
+}
+
+a:link.wr, a:visited.wr, a:hover.wr, a:active.wr {
+  color: #CBB9AD;
+  text-decoration: none;
+}
+
+a:link.wr2, a:visited.wr2, a:hover.wr2, a:active.wr2 {
+  color: #8AA4B5;
+  text-decoration: none;
 }
