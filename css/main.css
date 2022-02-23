@@ -3,11 +3,7 @@ body {
   background:  #2E3138;
   font-family: Georgia, Times, Serif;
   
-  background-image: url("/emlar_bg.png");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+  cursor: crosshair;
 }
 
 header, main {
@@ -15,7 +11,6 @@ header, main {
   text-align: center;
   margin: auto;
   background: rgba(0, 0, 0, 0.3);
-  height: 100vh;
 }
 
 .menu {
