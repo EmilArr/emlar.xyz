@@ -6,7 +6,7 @@ body {
   cursor: crosshair;
 }
 
-header, main {
+header, footer, main {
   max-width: 60%;
   text-align: center;
   margin: auto;
