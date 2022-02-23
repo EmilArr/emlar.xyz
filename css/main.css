@@ -10,7 +10,16 @@ header, main {
   max-width: 60%;
   text-align: center;
   margin: auto;
+}
+
+header{
   background: rgba(0, 0, 0, 0.1);
+  height: 10vh;
+}
+
+main{
+  background: rgba(0, 0, 0, 0.1);
+  height: 90vh;
 }
 
 .menu {
