@@ -10,7 +10,7 @@ header, main {
   max-width: 60%;
   text-align: center;
   margin: auto;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .menu {
