@@ -2,6 +2,13 @@ body {
   color: #CBB9AD;
   background:  #2E3138;
   font-family: Georgia, Times, Serif;
+  
+  background-image: url("/emlar_bg2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ 
 }
 
 header, main {
