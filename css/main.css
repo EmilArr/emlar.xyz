@@ -2,24 +2,12 @@ body {
   color: #CBB9AD;
   background:  #2E3138;
   font-family: Georgia, Times, Serif;
-  
-  cursor: crosshair;
 }
 
-header, footer, main {
-  max-width: 60%;
+header, main {
+  max-width: 67%;
   text-align: center;
   margin: auto;
-}
-
-header, footer{
-  background: rgba(0, 0, 0, 0.1);
-  height: 10vh;
-}
-
-main{
-  background: rgba(0, 0, 0, 0.1);
-  height: 80vh;
 }
 
 .menu {
@@ -63,4 +51,10 @@ a:link.wr, a:visited.wr, a:hover.wr, a:active.wr {
 a:link.wr2, a:visited.wr2, a:hover.wr2, a:active.wr2 {
   color: #8AA4B5;
   text-decoration: none;
+}
+
+article, .alternatives {
+  max-width: 70%;
+  text-align: left;
+  margin: auto;
 }
