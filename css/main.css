@@ -1,67 +1,118 @@
+
+:root {
+/* VARIABLES: Background, Text, Link-Hover, Other links  */
+
+/* Red and Green  */
+	--bg-1: #b10c11;
+	--txt-1: #11b10c;
+	--link-h-1: #40c03c;
+	--link-1: #65ce61;
+
+/* Original  */
+	--txt-2: #cbb9ad;
+	--bg-2: #2e3138;
+	--link-h-2: #65728d;
+	--link: #8aa4b5;
+
+/* Greenish Black&White  */
+	--bg-3: #112211;
+	--txt-3: #EEFFEE;
+	--link-h-3: #24600A;
+	--link-3: #65ce61;
+
+
+/* CHANGE THESE  */
+	--bg: var(--bg-2);
+	--txt: var(--txt-2);
+	--link-h: var(--link-h-2);
+	--link: var(--link-2);
+}
+
+
 body {
-  color: #CBB9AD;
-  background:  #2E3138;
-  font-family: Georgia, Times, Serif;
-  
-  background-image: url("/emlar_bg2.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
- 
+	font-family: 'Georgia', serif;
+	font-weight: bold;
+	background: var(--bg);
+	color: var(--txt);
+	
+	max-width: 95vw;
+	max-height: 95vh;
 }
 
-header, main {
-  max-width: 67%;
-  text-align: center;
-  margin: auto;
+main {
+	width: 95vw;
+	height: 95vh;
+	text-align: left;
 }
 
-.menu {
-  max-width: 100%;
+.home-h1 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: calc(1em + 4vw);
+}
+
+.home-f {
+	position:absolute;
+	bottom:2vh;
+	left: 5vw;
+	right: 5vw;
+	width:90vw;
+	height: auto;
+	font-size: calc(1em + 0.75vw);
+}
+
+.paths {
+	font-size: calc(1em + 2vw);
+	text-align: right;
+}
+.paths-s {
+	font-size: calc(1em + 1vw);
+	text-align:right;
+}
+
+a:link.Names, a:visited.Names, a:hover.Names, a:active.Names, a:link.home-link, a:visited.home-link, a:hover.home-link, a:active.home-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover.home-link{
+	color: var(--link-h);
 }
 
 .Photos {
-  width: 75%;
-  height: auto;
-  border: 3px solid #000;
+	width: 75%;
+	height: auto;
+	border: 3px solid #000;
 }
 
-.title {
-  width: 25%;
-  height: auto;
+.Names {
+	text-align: center;
+	max-width: 50vw;
+	margin: auto;
+	font-size: calc(1em + 1.4vw);
 }
 
-a:link.Names, a:visited.Names, a:hover.Names, a:active.Names {
-  text-decoration: none;
-  color: #CBB9AD;
+.list {
+	text-align: left;
+	max-width: 50vw;
+	margin: auto;
+	font-size: calc(1em + 1vw);
 }
 
-a:link {
-  color:  #8AA4B5;
-}
-a:visited {
-  color:  #9AB7CA;
-}
-a:hover {
-  color:  #65728D;
-}
-a:active {
-  color:  #C6E6FB;
+article {
+	max-width: 70vw;
+	text-align: left;
+	margin: auto;
+	font-size: calc(1em + 0.75vw)
 }
 
-a:link.wr, a:visited.wr, a:hover.wr, a:active.wr {
-  color: #CBB9AD;
-  text-decoration: none;
+a:link, a:visited, a:active {
+	color:var(--link)
+}
+a:hover{
+	color: var(--link-h);
 }
 
-a:link.wr2, a:visited.wr2, a:hover.wr2, a:active.wr2 {
-  color: #8AA4B5;
-  text-decoration: none;
-}
 
-article, .alternatives {
-  max-width: 70%;
-  text-align: left;
-  margin: auto;
-}
