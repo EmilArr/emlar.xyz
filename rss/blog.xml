@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+
+<channel>
+
+<item>
+<title> Schools and Free Software, 28.02.22</title>
+<link>https://emlar.xyz/blog/schools-foss</link>
+<guid>https://emlar.xyz/blog/schools-foss</guid>
+<description>Most schools use propietary software for everything. Why do they do it? What should they do instead?</description>
+<pubDate>February 28 2022</pubDate>
+</item>
+
+<item>
+<title>Website update</title>
+<link>https://emlar.xyz/rss</link>
+<guid>https://emlar.xyz/rss</guid>
+<description>After a bit of trouble with my web server the website is now back online. I have decided to join the blog and photography section into one big section on the website. I did that because I update the site too rarely and having only one section makes it easier to see if the it's been updated. In addition to that I also am no longer going to update all the different rss feeds - you can find the new rss feed at https://emlar.xyz/rss </description>
+<pubDate>June 18 2023</pubDate>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+:root 
+{
+/* VARIABLES: Background, Text, Link-Hover, Other links  */
+
+/* Red and Green  */
+	--bg-1: #6a070a;
+	--txt-1: #11b10c;
+	--txt-1-2: #000000;
+	--link-h-1: #40c03c;
+	--link-1: #65ce61;
+
+/* Original D  */
+	--bg-2: #2e3138;
+	--txt-2: #cbb9ad;
+	--txt-2-2: #cbb9ad;
+	--link-h-2: #65728d;
+	--link-2: #8aa4b5;
+/* Original L  */
+	--bg-2-l: #FFEEEE;
+	--txt-2-l: #2e3138;
+	--txt-2-l: #2e3138;
+	--link-h-2-l: #818387;
+	--link-2-l: #575a5f;
+
+/* BW */
+	--bg-bw: #000000;
+	--txt-bw: #FFFFFF;
+	--txt-2-bw: #FFFFFF;
+	--link-h-bw: #A9A9A9;
+	--link-bw: #A9A9A9;
+/* editable */
+	--bg-: #000000;
+	--txt-: #938752;
+	--txt-2-: #938752;
+	--link-h-: #875293;
+	--link-: #875293;
+
+/* CHANGE these ONLY  */
+	--bg: var(--bg-);
+	--txt: var(--txt-);
+	--txt-2: var(--txt-2-);
+	--link-h: var(--link-h-);
+	--link: var(--link-);
+}
+
+
+body {
+	font-family: 'Georgia', serif;
+	font-weight: bold;
+	background: var(--bg);
+	color: var(--txt);
+	
+	max-width: 95vw;
+	max-height: 95vh;
+}
+
+main {
+	width: 95vw;
+	height: 95vh;
+	text-align: left;
+}
+
+.home-h1 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: calc(1em + 4vw);
+	font-family: 'Aboreto', cursive;
+}
+
+.home-f {
+	color: var(--txt-2);
+	bottom: 1vh;
+	position:absolute;
+	left: 5vw;
+	right: 5vw;
+	width:90vw;
+	height: auto;
+	font-size: calc(1em + 0.75vw);
+}
+
+
+.paths, .paths-s {
+	font-size: calc(1em + 2vw);
+	text-align: right;
+}
+/*
+.paths-s{
+	font-size: calc(1em + 1vw);
+	text-align:right;
+}
+*/
+
+a:link.Names, a:visited.Names, a:active.Names, a:link.home-link, a:visited.home-link, a:hover.home-link, a:active.home-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.Photos4-3 {
+	display: block;
+	width: 60vw;
+	height: auto;
+	border: 3px solid #000;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Photos4-6 {
+	display: block;
+	height: 58vh;
+	width: auto;
+	border: 3px solid #000;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.licenses {
+	display: block;
+	max-width: 75vw;
+	height: auto;
+	text-align: center;
+	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Names {
+	text-align: center;
+	max-width: 50vw;
+	margin: auto;
+	font-size: calc(1em + 1.4vw);
+}
+
+.list {
+	text-align: left;
+	max-width: 50vw;
+	margin: auto;
+	font-size: calc(1em + 1vw);
+}
+
+article {
+	color: var(--txt-2);
+	max-width: 70vw;
+	text-align: left;
+	margin: auto;
+	font-size: calc(1em + 0.75vw)
+}
+
+a:link, a:visited, a:active{
+	color:var(--link)
+}
+a:hover, a:hover.home-link, a:hover.Names{
+	color: var(--link-h);
+}
+
+

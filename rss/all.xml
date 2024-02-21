@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+
+<channel>
+
+<title> EMLAR.xyz </title>
+<link> https://emlar.xyz/ </link>
+<description> I am a GNU/Linux and free software enthusiast and a beginner photographer and programmer. This is a site for sharing my photograpy and my thoughts and ideas in my blog. </description>
+<lastBuildDate> Wed, April 13 2022 </lastBuildDate>
+
+<item>
+<title> Schools and Free Software, 28.02.22</title>
+<link>https://emlar.xyz/blog/schools-foss</link>
+<guid>https://emlar.xyz/blog/schools-foss</guid>
+<description>Most schools use propietary software for everything. Why do they do it? What should they do instead?</description>
+<pubDate>February 28 2022</pubDate>
+</item>
+
+
+<item>
+<title> Photo project "Lonely Places", 3.02.22</title>
+<link>https://emlar.xyz/photography/lonely-places</link>
+<guid> https://emlar.xyz/photography/lonely-places</guid>
+<description> This is a photo project I originally did for school. The goal was to photograph lonely places in Tallinn on film. All of the photos were shot on 35mm film in 2020.
+As a part of the project I learned to develop film and make darkroom prints. I took a lot more photos but here is a selection. </description>
+<pubDate>February 3 2022</pubDate>
+</item>
+
+<item>
+<title> Photos from summer 2022</title>
+<guid> https://emlar.xyz/photography/summer2022/</guid>
+<link> https://emlar.xyz/photography/summer2022/</link>
+<description>This summer I had a lot of time to walk around in the area around my summer house. These are the photos I took.</description>
+<pubDate>September 4 2022</pubDate>
+</item>
+
+<item>
+<title>February (photos)</title>
+<link>https://emlar.xyz/photography/february2023</link>
+<guid>https://emlar.xyz/photography/february2023</guid>
+<description>Photos from february.</description>
+<pubDate>February 24 2023</pubDate>
+</item>
+
+<item>
+<title>April (photos)</title>
+<link>https://emlar.xyz/photography/april2023</link>
+<guid>https://emlar.xyz/photography/april2023</guid>
+<description>Photos from april.</description>
+<pubDate>April 10 2023</pubDate>
+</item>
+
+<item>
+<title>Website update</title>
+<link>https://emlar.xyz/rss</link>
+<guid>https://emlar.xyz/rss</guid>
+<description>After a bit of trouble with my web server the website is now back online. I have decided to join the blog and photography section into one big section on the website. I did that because I update the site too rarely and having only one section makes it easier to see if the it's been updated. In addition to that I also am no longer going to update all the different rss feeds - you can find the new rss feed at https://emlar.xyz/rss </description>
+<pubDate>June 18 2023</pubDate>
+</item>
+
+</channel>
+</rss>

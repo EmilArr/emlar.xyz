@@ -1,0 +1,14 @@
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://emlar.xyz/</loc>
+	</url>
+	<url>
+		<loc>https://emlar.xyz/blog/</loc>
+	</url>
+	<url>
+		<loc>https://emlar.xyz/photography/</loc>
+	</url>
+	<url>
+		<loc>https://emlar.xyz/contact/</loc>
+	</url>
+</urlset>

@@ -1,38 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
-:root {
-/* VARIABLES: Background, Text, Link-Hover, Other links  */
-
-/* Red and Green  */
-	--bg-1: #b10c11;
-	--txt-1: #11b10c;
-	--link-h-1: #40c03c;
-	--link-1: #65ce61;
-
-/* Original  */
-	--bg-2: #2e3138;
-	--txt-2: #cbb9ad;
-	--link-h-2: #65728d;
-	--link: #8aa4b5;
-
-/* Greenish Black&White  */
-	--bg-3: #112211;
-	--txt-3: #EEFFEE;
-	--link-h-3: #24600A;
-	--link-3: #65ce61;
-
-
-/* CHANGE NUMBER ONLY  */
-	--bg: var(--txt-3);
-	--txt: var(--bg-3);
-	--link-h: var(--link-h-3);
-	--link: var(--link-3)
+:root 
+{
+	--bg: #000000;
+	--txt: #938752;
+	--txt-2: #938752;
+	--link-h: #875293;
+	--link: #875293;
 }
 
-
 body {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Georgia', serif;
 	font-weight: bold;
 	background: var(--bg);
 	color: var(--txt);
@@ -49,13 +27,15 @@ main {
 
 .home-h1 {
 	position: absolute;
-	top: 20%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: calc(1em + 4vw);
+	font-family: 'Aboreto', cursive;
 }
 
 .home-f {
+	color: var(--txt-2);
 	bottom: 1vh;
 	position:absolute;
 	left: 5vw;
@@ -64,49 +44,15 @@ main {
 	height: auto;
 	font-size: calc(1em + 0.75vw);
 }
-#webring {
-	font-size: 1em;
-	text-align: center;
-	RGBA(238, 255, 238, 0.45)
-}
 
-
-.paths {
+.paths, .paths-s {
 	font-size: calc(1em + 2vw);
 	text-align: right;
 }
-.paths-s {
-	font-size: calc(1em + 1vw);
-	text-align:right;
-}
 
-a:link.wr-2, a:visited.wr-2, a:hover.wr-2, a:active.wr-2, a:link.wr-1, a:visited.wr-1, a:active.wr-1, a:hover.wr-1 , a:link.Names, a:visited.Names, a:hover.Names, a:active.Names, a:link.home-link, a:visited.home-link, a:hover.home-link, a:active.home-link {
+a:link.Names, a:visited.Names, a:active.Names, a:link.home-link, a:visited.home-link, a:hover.home-link, a:active.home-link {
 	text-decoration: none;
 	color: inherit;
-}
-
-a:hover.home-link{
-	color: var(--link-h);
-}
-
-.Photos {
-	display: block;
-	width: 75vw;
-	height: auto;
-	border: 3px solid #000;
-	margin: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.licenses {
-	display: block;
-	max-width: 75vw;
-	height: auto;
-	text-align: center;
-	margin: auto;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 .Names {
@@ -115,26 +61,67 @@ a:hover.home-link{
 	margin: auto;
 	font-size: calc(1em + 1.4vw);
 }
-
-.list {
-	text-align: left;
-	max-width: 50vw;
-	margin: auto;
-	font-size: calc(1em + 1vw);
+a:link, a:visited, a:active{
+	color:var(--link)
 }
-
+a:hover, a:hover.home-link, a:hover.Names{
+	color: var(--link-h);
+}
 article {
+	color: var(--txt-2);
 	max-width: 70vw;
 	text-align: left;
 	margin: auto;
 	font-size: calc(1em + 0.75vw)
 }
-
-a:link, a:visited, a:active, a:link.wr-1, a:visited.wr-1, a:active.wr-1, a:hover.wr-1 {
+.list {
+	text-align: left;
+	max-width: 50vw;
+	margin: auto;
+	font-size: calc(1em + 1vw);
+}/* ??? */
+a:link, a:visited, a:active{
 	color:var(--link)
 }
-a:hover{
+a:hover, a:hover.home-link, a:hover.Names{
 	color: var(--link-h);
 }
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 66.6667%;
+}
+
+@media only screen and (max-width: 750px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+  .list, body, main, article{
+    max-width: 95%;
+    max-height: 95%;
+    margin: auto;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.cc {
+  text-align:center
+}
